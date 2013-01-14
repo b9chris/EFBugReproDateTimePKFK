@@ -8,7 +8,8 @@ namespace EFBugReproDateTimePKFK.Models
 {
 	public class Version
 	{
-		[Key]
+		public int Id { get; set; }
+
 		public DateTime From { get; set; }
 
 		public virtual MyClass VersionOf { get; set; }
