@@ -10,6 +10,7 @@ namespace EFBugReproDateTimePKFK.Models
 	public class EFBugReproDateTimePKFKDbContext : DbContext
 	{
 		public DbSet<MyClass> MyClasses { get; set; }
+		public DbSet<Version> Versions { get; set; }
 
 
 
